@@ -1,0 +1,65 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 70px;
+}
+.header {
+    display: flex; 
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.fig {
+    display: flex;
+    margin: 0px; 
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.skills{
+    background-color: rgb(226, 224, 224);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.samples {
+    text-align: center;
+}
+.image1 {
+    display: flex;
+    width:60%;
+    margin-left: 10%;
+    margin-right: 5%;
+    justify-content: center;
+}
+.image2 {
+    width:60%;
+    margin-right: 5%;
+    margin-left: 10%;
+    justify-content: center;
+}
+.sticky {
+    display: grid;
+    justify-content: right;
+}
+.footer {
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+}
+.port {
+    margin-right: 10%;
+}
+.work {
+    margin-left: 10%
+}
+.hyper {
+    color: blue !important;
+}
+.paragraph {
+    padding-bottom: 5%;
+}
